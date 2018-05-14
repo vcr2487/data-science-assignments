@@ -1,0 +1,62 @@
+---
+title: "Descriptive Statistics Assignment"
+author: "Your name"
+output:
+  html_notebook:
+    theme: lumen
+  html_document:
+    df_print: paged
+---
+
+#Your turn!
+We went through some exploratory analysis on our own, which will help us answer some questions in the data, and will actually give us more questions! Now pick another dataset from `mlbench` and create a markdown notebook of you exploring the data, following the same 5 steps.
+
+1. Take a glimpse at your data
+2. Look at the dimensions of your data
+3. Look at the class types of your data
+4. Distribution of your data
+5. Correlations in your data
+---
+
+Load mlbench and tidyverse
+```{r}
+#code to load
+```
+The package `mlbench` has a bunch of datasets that you can use to explore and build machine learning models on. 
+
+Select the dataset you'll work with and load it using `data()`
+```{r}
+#code to load dataset
+```
+
+> Since we aren't familiar with the variables in this data, we should probably keep the explanation of these variables handy
+
+## Explore!
+1. **Take a glimpse of your data.**
+```{r}
+#view the first 6 rows
+
+```
+2. **Look at the dimensions of your data.**
+```{r}
+#dimensions
+```   
+    
+3. **Look at the class types of each variable in your data.**
+```{r}
+#class types
+```
+4. **Distribution of your data**
+```{r}
+#distributions
+```
+
+5. **Correlations in your data**
+
+```{r}
+#try the pairs() function or the cor() function from the corrplot package.  
+
+```
+
+>Explain these correlations is simple terms based on what you know that the variables represent.
+
