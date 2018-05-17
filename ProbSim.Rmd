@@ -131,7 +131,7 @@ Good job!! Hopefully you can see that the more times the simulation is run, the 
   
 Supplement: 
 How is the theoretical distribution created?  Well, we know there are 36 possible outcomes
-![Two Dice](diceTree.png)
+[![Two Dice](P2.clip2.png)](https://bgsu.instructure.com/courses/901773/files/32337740/preview)
 Image source:  https://bgsu.instructure.com/courses/901773/pages/p2-sample-spaces?module_item_id=6366044 
   
   
