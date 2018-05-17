@@ -131,8 +131,8 @@ Good job!! Hopefully you can see that the more times the simulation is run, the 
   
 Supplement: 
 How is the theoretical distribution created?  Well, we know there are 36 possible outcomes
-[![Two Dice](P2.clip2.png)](https://bgsu.instructure.com/courses/901773/files/32337740/preview)
-Image source:  https://bgsu.instructure.com/courses/901773/pages/p2-sample-spaces?module_item_id=6366044 
+[![Two Dice](https://math.illinoisstate.edu/day/courses/old/312/session2101.gif)](https://math.illinoisstate.edu/day/courses/old/312/session2101.gif)
+Image source:  https://math.illinoisstate.edu/day/courses/old/312/session2101.gif
   
   
 But a differing number of ways to get each sum.  Here is a (low-tech) histogram showing each possible die roll, and their corresponding sum.  The odds of each individual combination are 1/36!  
