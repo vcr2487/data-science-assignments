@@ -43,9 +43,9 @@ Try running this code chunk a few times for yourself to observe the variation.
   
 Knowing what you know about the set of possible outcomes, what do you predict the mean sum of two dice rolls will be??  
 
-#################################################
-...................thinking......................
-#################################################
+#################################################  
+...................thinking......................  
+#################################################  
 
 Well, the outcomes range from 2 {1,1} to 12 {6,6}, so 11 possible values, the middle of that range being 7 (with 5 values on either side).  
 
