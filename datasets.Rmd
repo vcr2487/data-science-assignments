@@ -44,11 +44,7 @@ The `View()` function (note: case sensitive!) opens the dataframe for an Excel-l
 ```{r}
 data()
 ```
- If you want more information, the following index will link you to the package information page for those listed above.    
-https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/  
-  
-  
-If that's not enough!  There is a package called 'datasets' that will give you access to even more!  
+ If you want more information, the following index will link you to the package information page for those listed above.  There are quite a few additional datasets you have access to, that come with the library conveniently named 'Datasets':   
 https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html  
 ```{r}
 install.packages("datasets")
