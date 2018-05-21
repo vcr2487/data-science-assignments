@@ -1,0 +1,77 @@
+---
+title: "Datasets for Exploratory Analysis"
+output: html_notebook
+---
+In case you'd like to work through some more exploratory analysis on your own, this markdown file was put together to give you a few good datasets to practice on.  You might already know there are built-in datasets in R. For example, when you open a new R Notebook file, you see the following code chunk:
+
+```{r}
+plot(cars)
+```
+
+Where does that data come from!?!  
+    
+Cars is one of several built in datasets.  If you'd like to load the data into a dataframe to explore, use the following code:  
+```{r}
+data(cars)
+summary(cars)
+```
+And a new object will appear in your 'Environment' Pane on the top right.   
+  
+You can give this dataframe whatever name you'd like, if you use the `<-` arrow (or equal sign) operatore to assign it to whatever name you'd like, AFTER you load it.   
+```{r}
+data("mpg")
+mileage<-mpg
+head(mileage)
+```
+  
+Some more examples of built in datasets, and a quick way of plotting:  
+```{r}
+data(mtcars)
+library(ggplot2)
+qplot(x=hp, y=mpg, data=mtcars)
+```
+  
+The above data is from a 1974 Motor Trend magazine article, and gives information on fuel consumption and 10 other aspects of automobile design and performance. The `qplot` function from the ggplot2 package is a quick and easy way to create a graph, specifying just the data argument and the variables for the x- and y-axes  
+
+```{r}
+diamonds<-data(diamonds)
+View(diamonds)
+```
+  
+The `View()` function (note: case sensitive!) opens the dataframe for an Excel-like exploratory window inside of R Studio.  You can sort by values in a column by clicking on the name of the column. Diamonds is a dataset built into the ggplot2 package.  
+  
+  Here is a trick.. running this code will actually show you a list of built-in datasets! 
+```{r}
+data()
+```
+ If you want more information, the following index will link you to the package information page for those listed above.    
+https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/  
+  
+  
+If that's not enough!  There is a package called 'datasets' that will give you access to even more!  
+https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html  
+```{r}
+install.packages("datasets")
+library(datasets)
+data("airquality")
+summary(airquality)
+```
+One thing to note is that the data isn't actually loaded until you do something with it, like call the function `summary()` (this is called lazy-loading, and its purpose is to save on memory allocation).   
+  
+If you use the generic built-in `plot` function on a more complicated dataset with multiple variables, it will show you a grid of scatterplots, of each variable 1 to 1 variable combination.  This can be a useful quick overview to look at the relationship between variables.  
+```{r}
+plot(airquality)
+```
+
+Try using the button with the arrow on the top-right of the in-line figure, to open it in a new window, so that you can view a larger version of this graph.  
+
+Another useful quick visualization is the `hist` function  
+```{r}
+hist(airquality$Ozone, breaks = 10)
+```
+  
+Try changing the number of bins to 20 using the `breaks =` argument.  
+  
+This should get you started!!  If you'd like to go beyond summary statistics and basic visualizations, feel free to start looking over the tidyverse materials for data wrangling!  And ask questions in the Slack channel!!
+
+
