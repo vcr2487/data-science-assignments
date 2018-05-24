@@ -4,5 +4,24 @@ author: "Vaughn Reid"
 output: html_document
 ---
 
+## Vaughn Reid
+### Professional Background
+* 15 years of Food & Beverage Hospitality
+  + Food & Beverage Supervisor
+  + Bartender
+* Bachelors in Economics from Florida International University
 
+### Interests 
+* Basketball
+* Music
+* Food
+* Photography
 
+### Siklls
+* Reviewing financial Reports
+
+![](https://scontent-mia3-2.xx.fbcdn.net/v/t31.0-8/13063179_10154805124072782_6166611150813714533_o.jpg?_nc_cat=0&oh=21e81986561a7a013ac0942a6ab717c4&oe=5BBE98F9)
+
+```{r}
+# I'm learning data science!
+```
